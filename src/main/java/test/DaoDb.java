@@ -26,5 +26,7 @@ public class DaoDb {
 	    String query="delete from employee where id='"+e.getId()+"' ";  
 	    return jdbcTemplate.update(query);  
 	}  
+	//hello world
+	
 	
 }
